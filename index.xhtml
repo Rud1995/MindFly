@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Home</title>
+    <link href="css/indexStyle.css" rel="stylesheet" type="text/css"/>
+</h:head>
+
+<h:body>
+    <f:view>
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo">
+                    <a href="index.xhtml"><h:graphicImage id="logoImage" value="images/Logo.png" width="110px" height="110px"/></a>
+                </div>
+                <div id="top_list">
+                    <ul>
+                        <li><a href="index.xhtml">Գլխավոր</a></li>
+                        <li><a href="">Մեր ծառայությունները</a></li>
+                        <li><a href="">Հետադարձ կապ</a></li>
+                        <li><a href="">Մեր մասին</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mid_section">
+                <div id="our_work" class="sameLine">
+                    <div class="head">
+                        <h:outputText value="Մեր աշխատանքները"/>
+                    </div>
+                    <!--slider--><div id="slider" class="backEmpty"></div>
+                </div>
+                <div id="promo_video" class="sameLine">
+                    <div class="head">
+                        <h:outputText value="Մեր Թիմը"/>
+                    </div>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/7Si0KzsBVBQ" frameborder="0" allowfullscreen="true"/>
+                </div>
+                <div id="offers" class="sameLine">
+                    <div class="head">
+                        <h:outputText value="MindFly-ն առաջարկում է"/>
+                    </div>
+                    <!--card_slider SOON--><div id="card_slider" class="backEmpty"></div>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer_wrapper">
+                    <div id="fb" class="labelIcon">
+                        <a href="https://www.facebook.com/MindFlyProd/" target="_blank"><h:graphicImage value="images/facebook.png" alt="fb" width="40px" height="40px"/></a>
+                    </div>
+                    <div id="instagram" class="labelIcon">
+                        <a href="https://www.instagram.com/MindFlyProd/" target="_blank"><h:graphicImage value="images/instagram.png" alt="instagram" width="40px" height="40px"/></a>
+                    </div>
+                    <div id="youtube" class="labelIcon">
+                        <a href="https://www.youtube.com/watch?time_continue=47&amp;v=7Si0KzsBVBQ" target="_blank"><h:graphicImage value="images/youtube.png" alt="youtube" width="40px" height="40px"/></a>
+                    </div>
+                    <h6>Facebook &nbsp; Instagram &nbsp;  Youtube</h6>
+                </div>
+            </div>
+        </div>
+    </f:view>
+</h:body>
+</html>
